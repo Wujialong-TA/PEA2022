@@ -1,4 +1,4 @@
-#[2-1 很厲害的SymPy: 符號計算的體驗]
+# [2-1 很厲害的SymPy: 符號計算的體驗]
 
 ![image](https://user-images.githubusercontent.com/89715433/202058575-1e60de13-29d4-4660-97b4-008451577049.png)
 
@@ -33,6 +33,9 @@ x, y, z = symbols('x y z')
 eq2 = 2*x**2 + 3*x - 5
 eq2
 
+![image](https://user-images.githubusercontent.com/89715433/202058921-23771c03-2da1-4813-9ac5-7a63ce489f20.png)
+
+
 Rational(3,4) + Rational(5,6)
 
 Rational(3,4) * Rational(5,6)
@@ -43,12 +46,16 @@ Rational(3,4) - Rational(5,6)
 
 a, b = symbols('a b')
 a/b
+![image](https://user-images.githubusercontent.com/89715433/202058967-fc226959-fa90-4f19-ba1d-6dceb52a6956.png)
+
 
 a*b
 
 a+b
 
 a-b
+
+![image](https://user-images.githubusercontent.com/89715433/202058983-4e24b910-dde2-4fbf-bb6a-60f8eeac5397.png)
 
 #2010
 for i in range(1,30):
@@ -66,6 +73,8 @@ sqrt(3)*sqrt(9)
 #2023
 pi
 
+![image](https://user-images.githubusercontent.com/89715433/202059067-4813da79-7260-4268-9d64-f4b2172a56d7.png)
+
 import math as m
 m.pi
 
@@ -78,6 +87,8 @@ N(pi,3) #show digits
 #2036
 expr = pi + sqrt(2) * Rational(3,4) + 1
 expr
+
+![image](https://user-images.githubusercontent.com/89715433/202059098-09fb0d11-73c9-412c-88c1-30fda016a335.png)
 
 #2037
 expr.evalf(6) # Show 6 digits
@@ -93,6 +104,8 @@ gcd(18,81) #最大公因數
 #2044
 gcd(18*x**4, 81*x**2)
 
+![image](https://user-images.githubusercontent.com/89715433/202059131-ededb2d9-9516-4261-a01c-23eb9c699b2d.png)
+
 #2045
 factor(18*x + 81)
 
@@ -106,6 +119,8 @@ expand(expr)
 #2048
 expr = (x*h**2-98*x**3-y**2/3*x)**(h-x-1)
 expr
+
+![image](https://user-images.githubusercontent.com/89715433/202059163-6faa7493-2395-47f1-b881-3fc2eae28d9c.png)
 
 #2049
 powsimp(x**a*y**a)
@@ -124,6 +139,8 @@ eqn
 #2053
 solve(eqn) # Example 4 in Lab 1
 
+![image](https://user-images.githubusercontent.com/89715433/202059211-9710a9b5-a585-48e9-bb02-dc3313991ac2.png)
+
 #2054 # Example 5 in Lab 1
 x, y, z= symbols('x y z')
 eq1 = Eq(x+y-z, -2)
@@ -138,6 +155,7 @@ A
 #2057
 A.col(0) # Show first column
 
+![image](https://user-images.githubusercontent.com/89715433/202059237-2d44ba0b-5f53-4fb6-9a88-626e117c6249.png)
 
 #2058
 A.row(0).T # Show first row and rotate the matrix
@@ -149,12 +167,16 @@ B
 #2060
 C = A*B # Example 10 in lab 1
 A, B, C
+![image](https://user-images.githubusercontent.com/89715433/202059269-2726e844-a567-4b59-b053-65f0464c29dc.png)
 
 #2061
 plot(2*x**2+3*x-5) #Example 1 in Lab 1
+![image](https://user-images.githubusercontent.com/89715433/202059315-d99f232a-439f-45f7-869f-9483c59ef91a.png)
 
 #2062
 plot(-2*x**2+3*x-5) #Quiz 1 in Lab 1
+![image](https://user-images.githubusercontent.com/89715433/202059334-77bc7b3e-28dd-4d07-a340-3d928455cb37.png)
+![image](https://user-images.githubusercontent.com/89715433/202059424-fd752e94-44bc-4092-a127-c7a5bfe1bbd1.png)
 
 #2063
 plot((1/2*x+1/2), -2*x+3) #Example 2 in Lab 1
@@ -163,6 +185,8 @@ plot((1/2*x+1/2), -2*x+3) #Example 2 in Lab 1
 from datetime import datetime
 today = datetime.now()
 print('*** Done by %s at' % user,today, type(today))
+
+![image](https://user-images.githubusercontent.com/89715433/202059368-8fba401b-98d5-4ac4-8fd3-68bf75a9d3c5.png)
 
 #2201 繪製第一張折線圖
 user = 'JiaLong'
