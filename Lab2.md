@@ -202,6 +202,9 @@ x = [1,2,3,4,5]
 plt.plot(x,color='r', marker='o', lineStyle='--', linewidth=2, markersize=6)
 plt.show()
 
+![image](https://user-images.githubusercontent.com/89715433/202059878-6a4587b3-1aac-4c9f-b231-596b2771e4d0.png)
+
+
 #2202 多組數據的折線圖
 import matplotlib.pyplot as plt
 
@@ -209,6 +212,8 @@ x = [[1,2,3,4,5],[1,2,3,4,5]]
 y = [[1,2,4,8,16],[1,2,3,4,5]]
 plt.plot(x[0], y[0], 'ro-', x[1], y[1], 'go--') # 依序填入資料
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202059899-e6f8cba6-d7dc-4947-9796-2eae6d403c44.png)
 
 #2203 繪製第一張散布圖
 import matplotlib.pyplot as plt
@@ -219,6 +224,8 @@ y = [11,8,26,16,9,17,23,4,14,10]
 plt.scatter(x,y)
 plt.show()
 
+![image](https://user-images.githubusercontent.com/89715433/202059929-be1efec0-82da-43fa-a957-00f83c728fa5.png)
+
 #2204 散布圖 - 對應出指定的顏色
 import matplotlib.pyplot as plt
 
@@ -228,12 +235,16 @@ size = [i*100 for i in y] # 放大資料點數據 100 倍，比較容易觀察�
 plt.scatter(x,y,s=size,c=size,cmap='Set1') # 使用 Set1 的 colormap
 plt.show()
 
+![image](https://user-images.githubusercontent.com/89715433/202059949-12ac1c61-86c2-4232-9928-a754afc5c8e3.png)
+
 #2205 繪製第一張長條圖，import matplotlib.pyplot as plt
 
 x = [1,2,3,4,5] # 水平資料點
 h = [10,20,30,40,50] # 高度
 plt.bar(x,h)
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202059963-a107fe6a-3a5a-4928-b328-7ef238c0117b.png)
 
 #2206 兩組數據的長條圖
 import matplotlib.pyplot as plt
@@ -245,11 +256,15 @@ plt.bar(x,h,color='b',width=0.4, align='edge')
 plt.bar(x2,h2,color='r',width=0.4)
 plt.show()
 
+![image](https://user-images.githubusercontent.com/89715433/202059985-b2631bd2-4112-4b29-a2d5-bd5554cc3a59.png)
+
 #2207 繪製第一張圓餅圖
 import matplotlib.pyplot as plt
 x = [1,2,3,4,5]
 plt.pie(x, radius=1.5, labels=x)
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202060000-d894ee60-455d-43ec-9db1-ced767ee41c1.png)
 
 #2208 圓餅圖的內部百分比
 import matplotlib.pyplot as plt
@@ -259,6 +274,8 @@ plt.pie(x,
         labels=x,
         autopct='%.1f%%')   # %.1f%% 表示顯示小數點一位的浮點數，後方加上百分比符號
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202060020-c29bbe0e-23ca-4cd3-bcdf-623ea63d08a8.png)
 
 #2209 甜甜圈圖表
 import matplotlib.pyplot as plt
@@ -270,6 +287,8 @@ plt.pie(x,
         pctdistance=0.7,
         wedgeprops={'linewidth':3,'edgecolor':'w','width':1})
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202060088-4e79d674-59fd-4a70-b45e-66d4e3b8d71c.png)
 
 #2210 繪製更精緻的等高線圖
 import matplotlib.pyplot as plt
@@ -283,6 +302,8 @@ plt.figure(figsize=(8,6))
 plt.contour(x,y,z,levels=lv)
 plt.show()
 
+![image](https://user-images.githubusercontent.com/89715433/202060142-455df16d-43a9-44a1-b70a-4d8ad9808467.png)
+
 
 #2211 Numpy 階梯折線圖
 from numpy import random
@@ -292,6 +313,9 @@ y = random.randint(100,1000,10)    # 產生 100～1000 隨機十個數字
 plt.step(x,y)                      # 繪製階梯折線圖
 plt.plot(x,y,'o--', color='grey',alpha=0.3)    # 繪製折線圖
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202060187-31c05477-6e8a-4315-8402-e7c14669aeac.png)
+![image](https://user-images.githubusercontent.com/89715433/202060207-c1aa471c-57fd-4bf9-a633-acb039d38fea.png)
 
 #2212
 import matplotlib.pyplot as plt
@@ -311,6 +335,8 @@ ax[1,1].stackplot(x,y1,y2,y3,
 ax[1,1].legend(loc='lower left')
 plt.show()
 
+![image](https://user-images.githubusercontent.com/89715433/202060235-ca37c1a8-1cf8-49b2-8049-40b38c208052.png)
+
 
 #2213
 import matplotlib.pyplot as plt
@@ -320,6 +346,9 @@ y2 = [12,3,7,11,4]
 plt.bar(x, y1)
 plt.bar(x, y2, bottom=y1)
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202060276-805ae041-2456-4445-ad9f-6945044f7ed7.png)
+
 
 #2214
 import matplotlib.pyplot as plt
@@ -331,6 +360,8 @@ plt.subplot(projection='polar')  # 設定 projection='polar' 表示極座標系�
 plt.bar(x,y)
 plt.show()
 
+![image](https://user-images.githubusercontent.com/89715433/202060302-a5bdd3db-d83d-49d1-a9d6-e003655f90ec.png)
+
 #2215
 
 import matplotlib.pyplot as plt
@@ -340,6 +371,9 @@ fig = plt.figure(figsize=(6,6))
 plt.subplot(projection='polar')                  # 設定為極座標
 plt.scatter(x,y,s=[i*100 for i in y],alpha=0.5)  # 繪製散布圖
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202060323-49179fd3-1023-4916-bb8c-4357ac9e9060.png)
+
 
 #2216
 import matplotlib.pyplot as plt
@@ -354,6 +388,9 @@ ax.bar3d(x,y1,z,dx=1,dy=1,dz=[5,4,3,2,1])
 ax.bar3d(x,y2,z,dx=1,dy=1,dz=[1,2,3,2,1])
 ax.bar3d(x,y3,z,dx=1,dy=1,dz=[1,4,3,2,4])
 plt.show()
+
+![image](https://user-images.githubusercontent.com/89715433/202060354-f0be7693-a3ca-4fc1-843f-63ba84286801.png)
+![image](https://user-images.githubusercontent.com/89715433/202060379-0869cd6f-b7ea-4478-82ed-288765c970e3.png)
 
 
 #2217
