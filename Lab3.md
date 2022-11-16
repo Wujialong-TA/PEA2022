@@ -51,8 +51,12 @@ df  #df.head()
 
 
 #3106 設定date日期作為索引，成為有時間序列的資料
+
 #參數說明 parse_dates指定對date做日期序列解析
+
 #index_col指定某一列作為索引
+
+
 train = pd.read_csv('sales/train.csv', 
     parse_dates=['date'], index_col=['date'])
 train #train.head()
