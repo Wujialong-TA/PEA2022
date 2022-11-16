@@ -166,6 +166,10 @@ B
 C = A*B # Example 10 in lab 1
 A, B, C
 
+#2060
+C = A*B # Example 10 in lab 1
+A, B, C
+
 ![image](https://user-images.githubusercontent.com/89715433/202059547-345be889-4cb4-4632-afab-e4f862d95da6.png)
 
 #2061
