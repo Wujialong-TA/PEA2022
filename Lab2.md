@@ -163,11 +163,12 @@ A.row(0).T # Show first row and rotate the matrix
 #2059
 B = A * 2
 B
-
+![image](https://user-images.githubusercontent.com/89715433/202059269-2726e844-a567-4b59-b053-65f0464c29dc.png)
 #2060
 C = A*B # Example 10 in lab 1
 A, B, C
-![image](https://user-images.githubusercontent.com/89715433/202059269-2726e844-a567-4b59-b053-65f0464c29dc.png)
+
+![image](https://user-images.githubusercontent.com/89715433/202059547-345be889-4cb4-4632-afab-e4f862d95da6.png)
 
 #2061
 plot(2*x**2+3*x-5) #Example 1 in Lab 1
@@ -175,7 +176,6 @@ plot(2*x**2+3*x-5) #Example 1 in Lab 1
 
 #2062
 plot(-2*x**2+3*x-5) #Quiz 1 in Lab 1
-![image](https://user-images.githubusercontent.com/89715433/202059334-77bc7b3e-28dd-4d07-a340-3d928455cb37.png)
 ![image](https://user-images.githubusercontent.com/89715433/202059424-fd752e94-44bc-4092-a127-c7a5bfe1bbd1.png)
 
 #2063
