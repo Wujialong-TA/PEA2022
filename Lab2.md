@@ -363,7 +363,6 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/89715433/202060302-a5bdd3db-d83d-49d1-a9d6-e003655f90ec.png)
 
 #2215
-
 import matplotlib.pyplot as plt
 x = range(10)
 y = [7,8,5,12,6,10,19,13,5,9]
@@ -390,6 +389,7 @@ ax.bar3d(x,y3,z,dx=1,dy=1,dz=[1,4,3,2,4])
 plt.show()
 
 ![image](https://user-images.githubusercontent.com/89715433/202060354-f0be7693-a3ca-4fc1-843f-63ba84286801.png)
+
 ![image](https://user-images.githubusercontent.com/89715433/202060379-0869cd6f-b7ea-4478-82ed-288765c970e3.png)
 
 
