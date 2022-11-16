@@ -1,9 +1,6 @@
+#[2-1 很厲害的SymPy: 符號計算的體驗]
+
 ![image](https://user-images.githubusercontent.com/89715433/202058575-1e60de13-29d4-4660-97b4-008451577049.png)
-
-
-
-
-
 
 #1101
 !pip install sympy
