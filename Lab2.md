@@ -29,6 +29,9 @@ eql = Eq(3*x+2*y-z, 6)
 eql
 
 # Lab1-2 用Python學到國高中數學, #1
+
+![image](https://user-images.githubusercontent.com/89715433/202060575-1c13c586-6468-479e-8dc8-826b4b235a53.png)
+
 x, y, z = symbols('x y z')
 eq2 = 2*x**2 + 3*x - 5
 eq2
